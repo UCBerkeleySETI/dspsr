@@ -43,6 +43,8 @@ LDADD = libdspsr.la \
 	$(top_builddir)/Signal/General/libdspdsp.la \
 	$(top_builddir)/Kernel/libdspbase.la \
 	$(top_builddir)/Signal/Statistics/libdspstats.la \
+	$(top_builddir)/Kernel/Formats/fits/libfits.la \
+	$(top_builddir)/Kernel/Classes/libClasses.la \
 	@CUFFT_LIBS@ @CUDA_LIBS@
 
 AM_CPPFLAGS += @CUFFT_CFLAGS@
